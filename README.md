@@ -6,7 +6,7 @@ using Tailwind CSS fontawesome 6
 
 ### `npm install`
 
-build node_modules then
+build node_modules
 
 ### npm install react-router-dom@6
 

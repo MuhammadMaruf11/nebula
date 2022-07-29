@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <>
       <div className="container flex justify-between py-20 mx-auto">
-        <div className="logo">
+        <Link to='/'>
           <img src={logo} alt="" />
-        </div>
+        </Link>
 
         <div className="link">
           <ul className="flex">
