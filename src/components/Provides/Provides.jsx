@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import plane from "../../assets/img/banner/plane.png";
-import card from "./card.json";
+import {Card} from "./card";
 
 const Service = () => {
   return (
@@ -26,14 +26,14 @@ const Service = () => {
         </h2>
       </div>
       <div className="container grid grid-cols-3 gap-20 pb-8 mx-auto">
-        {card &&
-          card.map((index) => (
+        {Card &&
+          Card.map((index) => (
             <div
               key={index.id}
               className="bg-white p-12 text-center rounded-3xl h-[770px]"
             >
-              <div className="mb-4">
-                <img className="w-10 h-10" src={index.image} alt="" />
+              <div className="mb-4 w-[470px] h-[280px]">
+                <img src={index.image} className='w-[80%]' alt={index.title} />
               </div>
               <div className="text-3xl mb-8 tracking-wider text-[#0094ca]">
                 {index.title}
