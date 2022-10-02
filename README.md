@@ -8,7 +8,7 @@ using Tailwind CSS fontawesome 6
 
 build node_modules
 
-### npm install react-router-dom@6
+### npm install react-router-dom@6  (if needed)
 
 create router-dom for single page application
 
